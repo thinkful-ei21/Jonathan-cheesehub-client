@@ -1,3 +1,5 @@
+import { API_BASE_URL } from './config';
+
 export const FETCH_CHEESES_REQUEST = 'FETCH_CHEESES_REQUEST';
 const fetchCheesesRequest = () => {
   return {
