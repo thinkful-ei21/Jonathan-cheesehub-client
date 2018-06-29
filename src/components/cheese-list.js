@@ -11,11 +11,12 @@ class CheeseList extends React.Component {
     this.cheeses = this.props.cheeses.map((cheese, index) => {
       return <li key={index}>{cheese}</li>;
     });
-    return;
-    <div>
-      <h2>WELCOME TO CheeseHub!</h2>
-      <ul className="cheeseList">{this.cheeses}</ul>
-    </div>;
+    return (
+      <div>
+        <h2>WELCOME TO CheeseHub!</h2>
+        <ul className="cheeseList">{this.cheeses}</ul>
+      </div>
+    );
   }
 }
 
